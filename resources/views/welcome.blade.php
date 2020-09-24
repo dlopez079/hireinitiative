@@ -18,17 +18,17 @@
 
             /* The hero image */
             .hero-image {
-            /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+                /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Memorial.jpg");
 
-            /* Set a specific height */
-            height: 50%;
+                /* Set a specific height */
+                height: 50%;
 
-            /* Position and center the image to scale nicely on all screens */
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
+                /* Position and center the image to scale nicely on all screens */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
             }
 
             /* Place text in the middle of the image */
@@ -48,8 +48,8 @@
             }
         </style>
     </head>
-    <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
+    <body>
+        <div class="loginRegisterBar">
             @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
                     @auth
@@ -63,8 +63,8 @@
                     @endif
                 </div>
             @endif
-
-
+        </div>
+        
             <!-- Create a placeholder so you can put an image along with a title for the webpage -->
             <div class="hero-image">
                 <div class="hero-text">
@@ -74,8 +74,5 @@
                 </div>
             </div>
             <!-- End of the hero -->
-
-
-        </div>
     </body>
 </html>
