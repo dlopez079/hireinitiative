@@ -8,39 +8,47 @@ To get started, I will use Jetstream/Laravel, on Homestead, to create the base o
 
 ### Prerequisites
 
-Install Virtual Box.
-Install Vagrant.
-Clone Homestead respository.
-Install Jetstream(Inertia) with Laravel.
-Select Inertia which uses Vue.js as backend.
+-   Install Virtual Box.
+-   Install Vagrant.
+-   Clone Homestead respository.
+-   Install Jetstream(Inertia) with Laravel.
+-   Select Inertia which uses Vue.js as backend.
 
 ### Installing
 
-Download the latest version of virtual box. Virtual box is a free virtualization product that will provide a virtual environment your project. This solution allows you to move away from using your physical computer as a platform and use a virtual environment in which you can manage.
+-   Download the latest version of virtual box. Virtual box is a free virtualization product that will provide a virtual environment your project. This solution allows you to move away from using your physical computer as a platform and use a virtual environment in which you can manage.
 
-Download Vagrant. Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the "works on my machine" excuse a relic of the past.
+-   Download Vagrant. Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the "works on my machine" excuse a relic of the past.
 
-Since I used a windows machine for this project, I made sure that hardware virtualization(VT-x) in my BIOS.
+-   Since I used a windows machine for this project, I made sure that hardware virtualization(VT-x) in my BIOS.
 
-I installed the Homestead Vagrant Box.
+-   I installed the Homestead Vagrant Box.
 
-I cloned the Homestead respository to a main folder just above the projects folder as the Homestead box will serve as the host to all of me Laravel projects.
+-   I cloned the Homestead respository to a main folder just above the projects folder as the Homestead box will serve as the host to all of me Laravel projects.
 
-Onced I have closed the Homestead respository, I created the Homestead.yaml file. This file is where I will configure the project for the website. I created a folder for the project called "HireInitiative". I synced this project folder, which is on the physical machine, to the project folder that's located in the virtual machine. This allows me to modify specific files on both virtual machine and physical machine. I also set up the mysql database on the yaml file.
+-   Onced I have closed the Homestead respository, I created the Homestead.yaml file. This file is where I will configure the project for the website. I created a folder for the project called "HireInitiative". I synced this project folder, which is on the physical machine, to the project folder that's located in the virtual machine. This allows me to modify specific files on both virtual machine and physical machine. I also set up the mysql database on the yaml file.
 
-I use the Laravel installer to create the Laravel with Jetstream on the virtual project folder (Teams included). I can see the physical machine project folder populate with the laravel project files. I then build my NPM dependencies and migrate my database.
+-   I use the Laravel installer to create the Laravel with Jetstream on the virtual project folder (Teams included). I can see the physical machine project folder populate with the laravel project files. I then build my NPM dependencies and migrate my database.
+
+### Landing Page
+
+-   To launch a marketable landing page with a Tribute Summary and Bio of the H.I.R.E Initiative.
+-   Provide Security for the site.
+-   Marketing - Social Media, Email, Contact Form
+-   SEO – Search Engine Optimization
+-   The web frontend framework used
+
+=====
 
 ## Running the tests
 
-Road not established yet.
+-   Road not established yet.
 
-### Break down into end to end tests
-
-Road not established yet.
+=====
 
 ## Deployment
 
-Road not established yet.
+-   Road not established yet.
 
 ## Built With
 
