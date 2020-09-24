@@ -1,61 +1,65 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Project Title
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+The H.I.R.E. Initiative is a movement established by Mr. Mark Papadimitriou. H.I.R.E. stands for "Honesty", "Integrity", "Respect", and "Equality". This website project will start as an informational piece. We will start with a Landing Page. With time, we will design a full website with multiple pages, authentication, full CRUD, and ecommerce.
 
-## About Laravel
+## Getting Started
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+To get started, I will use Jetstream/Laravel, on Homestead, to create the base of the project. This will include the front end scaffolding with authentication. Homestead will provide the front and back end environment so I can get to work on the full stack.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Prerequisites
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Install Virtual Box.
+Install Vagrant.
+Clone Homestead respository.
+Install Jetstream(Inertia) with Laravel.
+Select Inertia which uses Vue.js as backend.
 
-## Learning Laravel
+### Installing
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Download the latest version of virtual box. Virtual box is a free virtualization product that will provide a virtual environment your project. This solution allows you to move away from using your physical computer as a platform and use a virtual environment in which you can manage.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Download Vagrant. Vagrant is a tool for building and managing virtual machine environments in a single workflow. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases production parity, and makes the "works on my machine" excuse a relic of the past.
 
-## Laravel Sponsors
+Since I used a windows machine for this project, I made sure that hardware virtualization(VT-x) in my BIOS.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+I installed the Homestead Vagrant Box.
 
-### Premium Partners
+I cloned the Homestead respository to a main folder just above the projects folder as the Homestead box will serve as the host to all of me Laravel projects.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+Onced I have closed the Homestead respository, I created the Homestead.yaml file. This file is where I will configure the project for the website. I created a folder for the project called "HireInitiative". I synced this project folder, which is on the physical machine, to the project folder that's located in the virtual machine. This allows me to modify specific files on both virtual machine and physical machine. I also set up the mysql database on the yaml file.
+
+I use the Laravel installer to create the Laravel with Jetstream on the virtual project folder (Teams included). I can see the physical machine project folder populate with the laravel project files. I then build my NPM dependencies and migrate my database.
+
+## Running the tests
+
+Road not established yet.
+
+### Break down into end to end tests
+
+Road not established yet.
+
+## Deployment
+
+Road not established yet.
+
+## Built With
+
+-   [Jetstream](https://jetstream.laravel.com/1.x/introduction.html) - The web frontend framework used
+-   [Laravel](https://laravel.com/) - Full Stack framework used.
+-   [Database](https://www.mysql.com/) - Used for database.
+-   [Homestead](https://laravel.com/docs/8.x/homestead) - Used to establish a virtual environment for me to work on.
+-   [Vagrant](https://www.vagrantup.com/) - Used to manage and connect the virtual machine.
+-   [Virtual Box](https://www.virtualbox.org/) - Used to generate RSS Feeds
+-   [Laracasts](https://laracasts.com/) - Used as a reference along with documentation.
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Code of Conduct
+## Authors
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+-   **David Lopez** - _Initial work_ - [David Lopez](https://github.com/dlopez079)
 
-## Security Vulnerabilities
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```
