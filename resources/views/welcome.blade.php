@@ -15,6 +15,8 @@
         <style>
             body, html {
                 height: 100%;
+                max-width: 100vw;
+                margin: 0px;
             }
 
             /* The hero image */
@@ -23,10 +25,7 @@
                 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/storage/img/Memorial.jpg");
 
                 /* Set a specific height */
-                height: 100%;
-
-                /* Set a specific width */
-                width: 100%;
+                height: 100vh;
 
                 /* Position and center the image to scale nicely on all screens */
                 background-position: center;
@@ -49,14 +48,17 @@
                 padding: 20px;
             }
 
-            .speech{
-                background-color: lightgrey;
+            /* This will apply to all text boxes on page */
+            .textBox{
                 font-family: 'Roboto';
+                padding: 2%;
             }
-
-            .testimonial{
+            #speech{
+                background-color: lightgrey;
+                
+            }
+            #testimonial{
                 background-color: teal;
-                font-family: 'Roboto';
             }
             h1 {
                 text-align: center;
@@ -95,7 +97,7 @@
             <!-- End of the hero -->
             
             <!-- Insert Speech here! -->
-            <div class="speech">
+            <div id="speech" class="textBox">
                 <h1>9/11 Tribute Speech</h1>
                 
                 <p>"Now some of you may know me as outgoing smart funny I could go on but I won’t.</p> 
@@ -107,7 +109,7 @@
             </div>
             
             <!-- Insert the testimonial -->
-            <div class="testimonial">
+            <div id="testimonial"class="textBox">
                 <h1>A tribute to Our city</h1>
 
                 <p>There are days in our lives that we may forget, and other days which can never and should never be forgotten. September 11, 2001 is one of these days.  America was attacked at its very core by entities which seek to do use harm. They seek to do us harm because America provides a freedom they are not willing to.</p>
