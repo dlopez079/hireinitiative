@@ -10,8 +10,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Krona One" rel="stylesheet">
 
-        <!-- Styles -->
-        
+        <!-- Boostrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+        <!-- Inline Styles for Hero, body, HTML, and Headers.  No need to touch.  Boostrap is being used for the rest.-->
         <style>
             body, html {
                 height: 100%;
@@ -25,7 +27,10 @@
                 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/storage/img/Memorial.jpg");
 
                 /* Set a specific height */
-                height: 100vh;
+                height: 100%;
+
+                /* Set a specific width */
+                width: 100vw;
 
                 /* Position and center the image to scale nicely on all screens */
                 background-position: center;
@@ -48,19 +53,16 @@
                 padding: 20px;
             }
 
-            #testimonial{
-                background-color: teal;
             }
             h1, h2 {
                 text-align: center;
             }
         </style>
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
 
     </head>
     <body>
+
             <!-- Create a placeholder so you can put an image along with a title for the webpage -->
             <div class="hero-image">
 
@@ -88,6 +90,18 @@
                 </div>
             </div>
             <!-- End of the hero -->
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">col</div>
+                    <div class="col">col</div>
+                    <div class="w-100"></div>
+                    <div class="col">col</div>
+                    <div class="col">col</div>
+                </div>
+            </div>
+
+
             <div class="container-fluid m-0 p-0">
 
                 <!-- This is the row that contains the media (fox 5 footage and Mark Quote) -->
