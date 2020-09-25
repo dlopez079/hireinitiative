@@ -19,6 +19,7 @@
                 height: 100%;
                 max-width: 100vw;
                 margin: 0px;
+                background-color: lightgrey;
             }
 
             /* The hero image */
@@ -60,12 +61,21 @@
         </style>
 
         <!-- Scripts -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     </head>
     <body>
+       
         <!-- Create a placeholder so you can put an image along with a title for the webpage -->
         <div class="hero-image">
 
@@ -95,10 +105,10 @@
         <!-- End of the hero -->
 
         <!-- Container  -->
-        <div class="container-fluid p-0 my-0">
+        <div class="container-fluid w-100 p-0 m-0">
 
             <!-- This is the row that contains the fox 4 footage and Mark's quote -->
-            <div class="row">
+            <div class="row w-100 p-0 m-0">
 
                 <!-- Column with Fox News video -->
                 <div class="col">
@@ -113,7 +123,7 @@
             </div>
 
             <!-- Tribute Speech/Slideshow -->
-            <div class="row">
+            <div class="row w-100 p-0 m-0">
 
                 <!-- This is the column with the 9/11 Speech -->
                 <div class="col m-auto text-center">
@@ -161,7 +171,7 @@
             </div>
             
             <!-- Slideshow/Testimonial -->
-            <div class="row">
+            <div class="row w-100 p-0 m-0">
 
                 <!-- Slideshow 2 -->
                 <div class="col">
@@ -212,14 +222,12 @@
                 
             </div>
 
-        </div>`
+        </div>
         <!-- End of Container -->
+        
             
 
 
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
     </body>
 </html>
