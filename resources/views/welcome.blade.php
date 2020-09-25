@@ -48,6 +48,17 @@
                 padding: 20px;
             }
 
+            /* Style Media Box */
+            #media {
+                background-color: white;
+                max-width: 50%;
+                height: 360;
+                text-align: center;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                background-size: cover;
+            }
+
             /* This will apply to all text boxes on page */
             .textBox{
                 font-family: 'Roboto';
@@ -95,6 +106,11 @@
                 </div>
             </div>
             <!-- End of the hero -->
+
+            <!-- Fox News Video -->
+            <div id="media">
+                <iframe scrolling="no" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen allow="autoplay; fullscreen" src="https://w3.cdn.anvato.net/player/prod/v3/anvload.html?key=eyJtIjoiRVBGT1giLCJ2IjoiODUwMDIwIiwiYW52YWNrIjoiN3h5S09PSzdYcGNPYkxadTVTN0VhOEJURDdHcFp5dmUiLCJzaGFyZUxpbmsiOiJodHRwczovL3d3dy5mb3g1bnkuY29tL25ld3MvYW1lcmljYS1yZW1lbWJlcnMtOS0xMS12aXJ1cy1hbHRlcnMtZmFtaWxpYXItdHJpYnV0ZXMiLCJwbHVnaW5zIjp7ImN1c3RvbUNvbXNjb3JlUGx1Z2luIjp7ImMzIjoiRk9YIDUgTlkiLCJjNiI6ImZ0cyIsInNjcmlwdCI6Imh0dHBzOi8vc3RhdGljLmZveHR2LmNvbS9zdGF0aWMvb3Jpb24vc2NyaXB0cy9jb3JlL3V0aWxzL2NvbXNjb3JlL0N1c3RvbUNvbXNjb3JlUGx1Z2luLmpzIiwic2RrIjoiaHR0cHM6Ly9zdGF0aWMuZm94dHYuY29tL3N0YXRpYy9vcmlvbi9zY3JpcHRzL2NvcmUvdXRpbHMvY29tc2NvcmUvY29tc2NvcmUtNy4wLjAuMTkxMDE0LmpzIiwiY2xpZW50SWQiOiI2MDQyOTAxIiwibnNfc3Rfc3QiOiJXTllXIiwidGl0bGUiOiI5LzExIFRyaWJ1dGUgaW4gUXVlZW5zIiwibnNfc3RfY2kiOiI4NTAwMjAifSwiY3VzdG9tU2VnbWVudFBsdWdpbiI6eyJzY3JpcHQiOiJodHRwczovL3N0YXRpYy5mb3h0di5jb20vc3RhdGljL29yaW9uL3NjcmlwdHMvY29yZS91dGlscy9DdXN0b21TZWdtZW50UGx1Z2luLmpzIiwicHJpbWFyeV9idXNpbmVzc191bml0IjoiZnRzIiwic2Vjb25kYXJ5X2J1c2luZXNzX3VuaXQiOiJ3bnl3IiwiYXBwX25hbWUiOiJmb3g1bnkuY29tIiwiYXBwX3BsYXRmb3JtIjoid2ViIiwiYXBwX3ZlcnNpb24iOiIxLjAuMCIsInNlZ21lbnRJZCI6InpvSTQ4TkZwSklvT3VaNENxU3g4WlQ2VGRIUW96dFc4In0sImRmcCI6eyJjbGllbnRTaWRlIjp7ImFkVGFnVXJsIjoiaHR0cHM6Ly9wdWJhZHMuZy5kb3VibGVjbGljay5uZXQvZ2FtcGFkL2Fkcz9pdT0vNjM3OTA1NjQvd255d19mb3g1JmRlc2NyaXB0aW9uX3VybD1bcGxhY2Vob2xkZXJdJmVudj12cCZpbXBsPXMmY29ycmVsYXRvcj0mdGZjZD0wJm5wYT0wJmdkZnBfcmVxPTEmb3V0cHV0PXZhc3Qmc3o9MTAwMXgxMDAxJnVudmlld2VkX3Bvc2l0aW9uX3N0YXJ0PTEmY21zaWQ9dW5kZWZpbmVkJnZpZD1BTlZfRVBGT1hfODUwMDIwIiwia2V5VmFsdWVzIjp7InN0eXBlIjpbIm5ld3MiXSwicHR5cGUiOiJ2aWRlby1jbGlwIiwiYyI6WyJuZXdzIiwibWlkZGxlLXZpbGxhZ2UiLCJxdWVlbnMiLCJueWMiLCJzZXB0ZW1iZXItMTEiXSwiZCI6IndlYiJ9fX0sImhlYWx0aEFuYWx5dGljcyI6eyJhY2Nlc3NLZXkiOiI3eHlLT09LN1hwY09iTFp1NVM3RWE4QlREN0dwWnl2ZSIsInBsYXllclZlcnNpb24iOiIzLjUuMiIsInBsYXllckJ1aWx0IjoiMSIsInBsYXllclJldmlzaW9uIjoiM2FiMDVmMyJ9fSwiaHRtbDUiOnRydWUsImZvcm1hdCI6Im0zdTgiLCJ0b2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUoyYVdRaU9pSTROVEF3TWpBaUxDSnBjM01pT2lJM2VIbExUMDlMTjFod1kwOWlURnAxTlZNM1JXRTRRbFJFTjBkd1dubDJaU0lzSW1WNGNDSTZNVFl3TVRBME9UTTJPU3dpYVdGMElqb3hOakF4TURRMU56WTVmUS5ab2ZKZDlVY0JqTnpxUE13eFJPSWkybmhJVFlXTFV6WUhra1BaQmE3MjdVIn0%3D"  width ="640" height="360"></iframe>
+            </div>
             
             <!-- Insert Speech here! -->
             <div id="speech" class="textBox">
