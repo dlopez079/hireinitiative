@@ -193,7 +193,7 @@
                         </div>
                     </div>
                 <!-- Tribute to Our city  -->
-                <div class="col">
+                <div class="col m-auto text-center">
                     <h1>A Tribute to Our City</h1>
 
                     <p>There are days in our lives that we may forget, and other days which can never and should never be forgotten. September 11, 2001 is one of these days.  America was attacked at its very core by entities which seek to do use harm. They seek to do us harm because America provides a freedom they are not willing to.</p>
