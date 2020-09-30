@@ -135,16 +135,16 @@
             <div class="w3-col 3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">Police</div>
-                    <img src="/storage/img/Memorial003-480x640.jpg" alt="Police" style="width:100%">
+                    <img src="/storage/img/Memorial003-480x360.jpg" alt="Police" style="width:100%">
                 </div>
             </div>
 
-
+            <!-- Column 004: Firemen Tribute -->
             <div class="w3-col 3 m6 w3-margin-bottom">
-            <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">Memorial 004</div>
-                <img src=/storage/img/Memorial004-480x640.jpg" alt="House" style="width:100%">
-            </div>
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Firemen</div>
+                    <img src="/storage/img/Memorial006-480x360.jpg" alt="Firemen" style="width:100%">
+                </div>
             </div>
         </div>
 
