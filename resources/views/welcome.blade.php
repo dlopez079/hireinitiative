@@ -162,10 +162,10 @@
                 <div class="card w3-auto w3-center w3-text-teal" style="width:400px;">
                     <div class="card-body">
                         <div class="card-img-top">
-                            <img src="/storage/img/Mark001.jpg" alt="Mark" style="width:100%">
+                            <img src="/storage/img/Mark001.jpg" alt="Card Image" style="width:100%">
                         </div>
-                        <h3>Mark Papadimitriou</h3>
-                        <p>Founder</p>
+                        <h3 class="card-title">Mark Papadimitriou</h3>
+                        <p class="card-text">Founder</p>
                     </div>                    
                 </div>
         </div>
