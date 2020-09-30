@@ -127,21 +127,23 @@
             <div class="w3-col 3 m6 w3-margin-bottom">
                 <div class="w3-display-container">
                     <div class="w3-display-topleft w3-black w3-padding">The H.I.R.E Initiative</div>
-                    <img src="/storage/img/Memorial005-480x360.jpg" alt="Memorial 001" style="width:100%">
+                    <img src="/storage/img/Memorial005-480x360.jpg" alt="The H.I.R.E Initiative" style="width:100%">
                 </div>
             </div>
 
-            
+            <!-- Column 003: Police Tribute -->
             <div class="w3-col 3 m6 w3-margin-bottom">
-            <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">Memorial 003</div>
-                <img src="/storage/img/Memorial003-480x640.jpg" alt="House" style="width:100%">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Police</div>
+                    <img src="/storage/img/Memorial003-480x640.jpg" alt="Police" style="width:100%">
+                </div>
             </div>
-            </div>
+
+
             <div class="w3-col 3 m6 w3-margin-bottom">
             <div class="w3-display-container">
                 <div class="w3-display-topleft w3-black w3-padding">Memorial 004</div>
-                <img src="https://via.placeholder.com/150" alt="House" style="width:100%">
+                <img src=/storage/img/Memorial004-480x640.jpg" alt="House" style="width:100%">
             </div>
             </div>
         </div>
