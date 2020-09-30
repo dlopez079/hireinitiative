@@ -107,25 +107,35 @@
 
         <!-- Project Section -->
         <div class="w3-container w3-padding-32" id="projects">
+
+            <!-- Projects title with border underneath -->
             <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
         </div>
 
+    
         <div class="w3-row-padding">
+
+            <!-- Column 001 - Twin Towers -->
             <div class="w3-col 3 m6 w3-margin-bottom">
-            <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">Towers</div>
-                <img src="/storage/img/Memorial001-480x360.jpg" alt="House" style="width:100%">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Twin Towers</div>
+                    <img src="/storage/img/Memorial001-480x360.jpg" alt="Twin Towers" style="width:100%">
+                </div>
             </div>
+            
+            <!-- Column 002 - The H.I.R.E Initiative -->
             <div class="w3-col 3 m6 w3-margin-bottom">
-            <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">Memorial 002</div>
-                <img src="https://via.placeholder.com/125" alt="Memorial 001" style="width:100%">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">The H.I.R.E Initiative</div>
+                    <img src="/storage/img/Memorial005-480x360.jpg" alt="Memorial 001" style="width:100%">
+                </div>
             </div>
-            </div>
+
+            
             <div class="w3-col 3 m6 w3-margin-bottom">
             <div class="w3-display-container">
                 <div class="w3-display-topleft w3-black w3-padding">Memorial 003</div>
-                <img src="https://via.placeholder.com/150" alt="House" style="width:100%">
+                <img src="/storage/img/Memorial003-480x640.jpg" alt="House" style="width:100%">
             </div>
             </div>
             <div class="w3-col 3 m6 w3-margin-bottom">
