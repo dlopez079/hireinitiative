@@ -20,7 +20,7 @@
                 height: 100%;
                 width: 100%;
                 margin: 0px;
-                background-color: lightgrey;
+                background-color: white;
                 font-family: "Raleway", Arial, sans-serif;
             }
 
@@ -148,8 +148,6 @@
             </div>
         </div>
 
-
-    
         <!-- About Section -->
         <div class="w3-container w3-padding-32" id="about">
             <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
@@ -159,15 +157,15 @@
             </p>
         </div>
         
-        <!-- Bio Section -->
+        <!-- Bio Card Section -->
         <div class="w3-container w3-padding-32 w3-teal">
-                <div class="card w3-auto w3-teal w3-center" style="width:400px;">
+                <div class="card w3-auto w3-center w3-text-teal" style="width:400px;">
                     <div class="card-body">
                         <div class="card-img-top">
                             <img src="/storage/img/Mark001.jpg" alt="Mark" style="width:100%">
                         </div>
                         <h3>Mark Papadimitriou</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat natus saepe a officiis dolor amet temporibus ad magni nulla doloribus cum numquam dolorem voluptates perspiciatis, explicabo, veniam quas magnam dicta.</p>
+                        <p>Founder</p>
                     </div>                    
                 </div>
         </div>
@@ -189,20 +187,8 @@
         </div>
         
 
-    <!-- End page content -->
-
-            
+    <!-- End page content -->   
     </div>
-
-    <div class="card w3-auto" style="width:400px;">
-                    <div class="card-body">
-                        <div class="card-img-top">
-                            <img src="/storage/img/Mark001.jpg" alt="Mark" style="width:100%">
-                        </div>
-                        <h3>Mark Papadimitriou</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat natus saepe a officiis dolor amet temporibus ad magni nulla doloribus cum numquam dolorem voluptates perspiciatis, explicabo, veniam quas magnam dicta.</p>
-                    </div>                    
-            </div>
 
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-16">
@@ -210,7 +196,5 @@
     </footer>
 
 </body>
-</html>
-    
     </body>
 </html>
