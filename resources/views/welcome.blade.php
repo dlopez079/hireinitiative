@@ -92,8 +92,12 @@
 
     <!-- Header -->
     <header class="w3-display-container w3-content w3-wide" style="max-width:100%;" id="home">
-    <img class="w3-image" src="/storage/img/Memorial.jpg" alt="Architecture" width="100%" height="100%">
-    <div class="w3-display-middle w3-margin-top w3-center">
+
+        <!-- Main image for the site. -->
+        <img src="/storage/img/Memorial.jpg" alt="towers" width="100%">
+
+        <!-- Title text that sites on top of the image. -->
+        <div class="w3-display-middle w3-margin-top w3-center">
         <h1 class="w3-xxxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>H.I.R.E</b> <span class="w3-hide-small w3-text-teal">Initiative</5pan></span></h1>
     </div>
     </header>
@@ -109,8 +113,8 @@
         <div class="w3-row-padding">
             <div class="w3-col 3 m6 w3-margin-bottom">
             <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">Memorial 001</div>
-                <img src="https://via.placeholder.com/125" alt="House" style="width:100%">
+                <div class="w3-display-topleft w3-black w3-padding">Towers</div>
+                <img src="/storage/img/Memorial001-480x360.jpg" alt="House" style="width:100%">
             </div>
             <div class="w3-col 3 m6 w3-margin-bottom">
             <div class="w3-display-container">
@@ -136,7 +140,7 @@
         <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-display-container">
             <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-            <img src="/w3images/house2.jpg" alt="House" style="width:99%">
+            <img src="/storage/img/Memorial001-480x360.jpg" alt="House" style="width:99%">
         </div>
         </div>
         <div class="w3-col l3 m6 w3-margin-bottom">
