@@ -167,7 +167,7 @@
                             And so now if you would allow me just a couple more minutes of your time.</br>
                             </br>
                             A tribute to Our city</br>
-
+                            </br>
                             There are days in our lives that we may forget, and other days which can never and should never be forgotten. September 11, 2001 is one of these days.  America was attacked at its very core by entities which seek to do use harm. They seek to do us harm because America provides a freedom they are not willing to.  
                             On that day We as Americans witnessed the worst terror attack in modern history.  We watched as friends, family, loved ones died for no other reason than showing up to work.  So many share stories of loved ones who perished, and others share stories of how they or their loved ones were able, one way or another, to make it home and are grateful for the time they have.</br> 
                             </br>
