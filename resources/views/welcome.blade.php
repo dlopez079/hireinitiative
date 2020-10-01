@@ -7,8 +7,6 @@
         <title>H.I.R.E. Initiative</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Krona One" rel="stylesheet">
         <link rel="stylesheet" href="https://use.typekit.net/hef5yfi.css">
 
         <!-- Boostrap -->
