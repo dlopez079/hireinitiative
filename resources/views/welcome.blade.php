@@ -100,7 +100,7 @@
         <div class="w3-display-middle w3-margin-top w3-center">
         <h1 class="w3-jumbo w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>H.I.R.E</b> <span class="w3-hide-small w3-text-teal">Initiative</span></span></h1>
         </br>
-        <h1 class="w3-xxxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Honesty Integrity Respect Equality</b></span></h1>
+        <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min">Honesty Integrity Respect Equality</span></h1>
     </div>
     </header>
 
