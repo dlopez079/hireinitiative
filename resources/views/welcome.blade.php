@@ -193,8 +193,8 @@
     </div>
 
     <!-- Footer -->
-    <footer class="w3-center w3-black w3-padding-16">
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    <footer class="w3-center w3-teal w3-padding-16">
+    <p>Created by <a href="https://www.mattmen.com/" title="Mattmen, Inc." target="_blank" class="w3-text-yellow w3-visited-text-grey w3-hover-text-white w3-active-text-orange">Mattmen, Inc.</a></p>
     </footer>
 
 </body>
